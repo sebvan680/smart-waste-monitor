@@ -19,7 +19,7 @@ welke vuilnisbakken (bijna) vol zijn
 waar ze het eerst moeten ledigen
 Het systeem gebruikt beelden van camera’s (of sensordata) en objectdetectie om het vulniveau in te schatten.
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/f6/Smartbin_city_bin.png" width="300">
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
 ## Data sources and AI methods
 Camerabeelden van publieke domeinen (bv. parken of pleinen)
 Alternatief: IoT-sensoren die gewicht of afstand tot de deksel meten
