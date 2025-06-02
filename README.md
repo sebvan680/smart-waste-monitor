@@ -1,42 +1,62 @@
-# AI Project Title
+# smart-waste-monitor
 
 Final project for the Building AI course
 
 ## Summary
 
-[Schrijf hier in 2-3 zinnen waar je AI-project over gaat. Wat doet het, en waarom is het nuttig?]
+[Een AI-systeem dat via camera’s of sensoren automatisch detecteert wanneer publieke vuilnisbakken vol zijn. Hierdoor kunnen stadsdiensten efficiënter plannen en vermijden we overvolle bakken in straten en parken.]
 
 ## Background
 
-[Wat is het probleem dat je wil oplossen? Waarom is dit belangrijk? Wat is jouw motivatie?]
+[In veel steden zijn publieke vuilnisbakken regelmatig overvol. Dit leidt tot:
 
-* probleem 1
-* probleem 2
-* jouw drijfveer
+zwerfvuil
+onnodige ophaalrondes
+geur- en hygiëneproblemen
+Mijn motivatie is om AI te gebruiken om dit op een slimme manier op te lossen, zonder mensen telkens te laten controleren of bakken vol zijn.
+
+]
 
 ## How is it used?
 
-[Wie gebruikt dit? In welke context? Hoe werkt het praktisch? Voeg gerust een afbeelding toe.]
+[Het systeem wordt gebruikt door stadsdiensten. Via een dashboard of alerts zien ze:
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
+welke vuilnisbakken (bijna) vol zijn
+waar ze het eerst moeten ledigen
+Het systeem gebruikt beelden van camera’s (of sensordata) en objectdetectie om het vulniveau in te schatten.]
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/f6/Smartbin_city_bin.png" width="300">
 
 ## Data sources and AI methods
 
-[Waar haal je je data vandaan? Welke AI-techniek(en) gebruik je (bv. classificatie, regressie, clustering, NLP…)?]
+[Camerabeelden van publieke domeinen (bv. parken of pleinen)
+Alternatief: IoT-sensoren die gewicht of afstand tot de deksel meten
+AI-technieken:
+
+Object detection (bv. YOLOv5)
+Classificatie (volle/lege bak)
+Eventueel tijdreeksvoorspelling voor ophaalplanning
+]
 
 * Voorbeeld: [Twitter API](https://developer.twitter.com/en/docs)
 
 ## Challenges
 
-[Wat lost het project **niet** op? Wat zijn de beperkingen of ethische overwegingen?]
+[Beeldkwaliteit en lichtcondities kunnen inschatting moeilijk maken
+Privacy: beelden in publieke ruimte moeten anoniem blijven
+Moeilijk om vulniveau goed te detecteren zonder referentie]
 
 ## What next?
 
-[Hoe zou je het project kunnen uitbreiden? Wat heb je daarvoor nodig (skills, data, partners…)?]
+[Integreren met route-optimalisatie voor vuilnisophaling
+Werken met sensorgegevens (hybride AI + IoT)
+Samenwerken met steden of lokale overheden voor echte data
+UI bouwen voor meldingen (dashboard / app)]
 
 ## Acknowledgments
 
-* Gebruikte open source packages / inspiratie
-* Bronnen vermelden als je iets van iemand anders gebruikt
+Geïnspireerd door bestaande projecten zoals SmartBin
+Object detection idee gebaseerd op YOLOv5
+Cursus: Elements of AI – Building AI (Reaktor & Universiteit van Helsinki)
 
 # smart-waste-monitor
