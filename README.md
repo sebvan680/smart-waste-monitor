@@ -28,6 +28,7 @@ AI-technieken:
 Object detection (bv. YOLOv5)
 Classificatie (volle/lege bak)
 Eventueel tijdreeksvoorspelling voor ophaalplanning
+[Twitter API](https://developer.twitter.com/en/docs)
 ## Challenges
 Beeldkwaliteit en lichtcondities kunnen inschatting moeilijk maken
 Privacy: beelden in publieke ruimte moeten anoniem blijven
